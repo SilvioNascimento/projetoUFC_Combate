@@ -37,5 +37,7 @@ public class SistemaLutadores implements SistemaLutadoresInterface {
         System.out.println("Lutador " + nome + " foi removido das lutas para sempre.");
     }
 
-
+    public Map<String,Lutador> getLutadores() {
+        return this.lutadores;
+    }
 }
